@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: https://github.com/gomycode155/11ty-blog-site.git
 webhook_url: 
 sections:
+- type: document
+  path: https://github.com/gomycode155/11ty-blog-site.git
+  label: memory
+  match: "**/*"
+  read_only: true
 - type: heading
   label: citation
 upload_dir: uploads
